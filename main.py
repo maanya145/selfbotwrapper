@@ -8,7 +8,7 @@ from tldr import setup_tldr
 load_dotenv()
 
 bot = SelfBot(
-    token=os.getenv("DISCORD_TOKEN"),
+    token="MTEwNTUwMTkxMjYxMjIyOTE0MQ.GwtYQv.oDGpOK6_LTPwUXVml3HesREkZcTwlg_Zz9GLu8",
     prefix="!",
 )
 
