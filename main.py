@@ -1,16 +1,18 @@
+# main.py
+
+import os
+from dotenv import load_dotenv
 from selfbot import SelfBot
+from tldr import setup_tldr
+
+load_dotenv()
 
 bot = SelfBot(
-    token="YOUR_DISCORD_TOKEN",
-    prefix="?",
+    token=os.getenv("DISCORD_TOKEN"),
+    prefix="!",
 )
 
-@bot.command("echo")
-async def _(ctx, *, rest: str):
-    """Echo back whatever was passed."""
-    await ctx.reply(rest, mention_author=False)
-
-# register any other commands/handlers...
+setup_tldr(bot)
 
 if __name__ == "__main__":
     bot.run()
