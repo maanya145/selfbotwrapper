@@ -1,1 +1,27 @@
+# ---------- core ----------
+python-dotenv
+agno
 
+# ---------- LLMs ----------
+groq
+
+# ---------- data & storage ----------
+yfinance
+sqlite3  # built-in, safe to list
+
+# ---------- web & scraping ----------
+duckduckgo-search
+googlesearch-python
+firecrawl-py
+crawl4ai
+requests
+beautifulsoup4
+
+# ---------- cloud & sandbox ----------
+daytona-sdk
+
+# ---------- media ----------
+replicate
+
+# ---------- optional helpers ----------
+pydantic
