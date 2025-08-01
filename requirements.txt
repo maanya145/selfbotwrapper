@@ -6,8 +6,7 @@ agno
 groq
 
 # ---------- data & storage ----------
-yfinance
-sqlite3  # built-in, safe to list
+yfinance  # built-in, safe to list
 
 # ---------- web & scraping ----------
 duckduckgo-search
