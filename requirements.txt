@@ -24,3 +24,4 @@ replicate
 
 # ---------- optional helpers ----------
 pydantic
+discord.py-self
