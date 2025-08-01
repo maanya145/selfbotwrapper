@@ -21,8 +21,8 @@ class SelfBot:
         self.bot = commands.Bot(
             command_prefix=prefix,
             self_bot=True,
-            help_command=None,       # disable default help if you want your own
-            intents=discord.Intents.default()
+         #   help_command=None,       # disable default help if you want your own
+            #intents=discord.Intents.default()
         )
 
         # expose direct access if needed
