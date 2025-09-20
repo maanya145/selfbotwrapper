@@ -5,7 +5,7 @@ import discord
 from discord.ext import commands
 
 class SelfBot:
-    def __init__(self, *, token: str = None, prefix: str = "?"):
+    def __init__(self, *, token: str = None, prefix: str = "!"):
         """
         A simple wrapper around discord.py-self for creating selfbots.
 
